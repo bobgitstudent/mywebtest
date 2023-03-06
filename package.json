@@ -9,7 +9,7 @@
     "devDependencies": {},
 
     "scripts": {
-        "start": "http-server -c-1 -p 8081"
+        "start": "http-server -c-1 -p 3000"
     },
     "author": "",
     "license": "ISC"
