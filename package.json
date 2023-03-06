@@ -1,0 +1,17 @@
+{
+    "name": "code-malayalam",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "dependencies": {
+        "http-server": "14.1.1"
+    },
+    "devDependencies": {},
+
+    "scripts": {
+        "start": "http-server -c-1 -p 8081"
+    },
+    "author": "",
+    "license": "ISC"
+
+}
