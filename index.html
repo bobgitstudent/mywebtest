@@ -1,28 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Tricolor Website</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <nav>
-      <ul>
-        <li><a href="#saffron">Saffron</a></li>
-        <li><a href="#white">White</a></li>
-        <li><a href="#green">Green</a></li>
-      </ul>
-    </nav>
-    <section id="saffron">
-      <h1>Saffron Section</h1>
-      <p>This is the saffron section of the website.</p>
-    </section>
-    <section id="white">
-      <h1>White Section</h1>
-      <p>This is the white section of the website.</p>
-    </section>
-    <section id="green">
-      <h1>Green Section</h1>
-      <p>This is the green section of the website.</p>
-    </section>
-  </body>
+<head>
+	<title>My Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav>
+		<button id="redBtn" onclick="changeColor('red')">Red</button>
+		<button id="violetBtn" onclick="changeColor('violet')">Violet</button>
+		<button id="greenBtn" onclick="changeColor('green')">Green</button>
+	</nav>
+	<section>
+		<div id="red"></div>
+		<div id="violet"></div>
+		<div id="green"></div>
+	</section>
+	<footer>
+		©This website belongs to Mr. Senan
+	</footer>
+
+	<script src="script.js"></script>
+</body>
 </html>
