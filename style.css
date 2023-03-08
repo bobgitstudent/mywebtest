@@ -50,6 +50,16 @@ section {
 	flex-basis: 33.33%;
 }
 
+#yellow {
+	background-color: yellow;
+	flex-basis: 33.33%;
+}
+
+#black {
+	background-color: black;
+	flex-basis: 33.33%;
+}
+
 footer {
 	background-color: navy;
 	color: #fff;
