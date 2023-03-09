@@ -60,6 +60,12 @@ section {
 	flex-basis: 33.33%;
 }
 
+
+#blue {
+	background-color: blue;
+	flex-basis: 33.33%;
+}
+
 footer {
 	background-color: navy;
 	color: #fff;
